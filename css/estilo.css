@@ -61,6 +61,9 @@ body{
     background-color: white;
     color: #222;
 }
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
 /* ------estrutura de conteudos------ */
 .caixa{
     padding-top: 20px;
@@ -136,6 +139,7 @@ h3{
     font-weight: 700;
     letter-spacing: -0.04em;
 }
+
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .btn-custom{
@@ -149,6 +153,9 @@ h3{
         padding-left: 0px;
         width: 90%;
         margin: auto;
+    }
+    footer .col-md-2{
+        margin: 10px;
     }
  }
 /* // Small devices (landscape phones, less than 768px) */
@@ -167,12 +174,23 @@ h3{
         width: 90%;
         margin: auto;
     }
+    footer .col-md-2{
+        margin: 10px;
+    }
  }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1{
         font-size: 4em;
+    }
+    footer .col-md-2{
+        margin: 20px;
+    }
+    footer .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: none;
+        max-width: none;
     }
  }
 
